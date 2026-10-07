@@ -16,3 +16,7 @@ Route::get('/tarjetas', function () {
     return view('cards'); 
 });
 
+Route::get('/colores', function () { return view('color'); });
+Route::get('/bordes', function () { return view('borders'); });
+Route::get('/animaciones', function () { return view('animation'); });
+Route::get('/otros', function () { return view('other'); });
